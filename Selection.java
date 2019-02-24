@@ -1,6 +1,6 @@
 /**
  * This class determines whether a record in an input stream matches a select filter
- * @author Celia
+ * @author Celia Arsen
  */
 
 public class Selection {
@@ -57,8 +57,7 @@ public class Selection {
 				return -1;
 			}	
 		}			
-	}	
-	
+	}		
 }
 
 
