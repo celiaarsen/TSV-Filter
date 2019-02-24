@@ -25,6 +25,7 @@ they should to appear in the output.
 
 For example:
 
+```
 public static void main(String[] args) {
         TSVFilter myTSVFilter = new TSVFilter
         .Builder("mydata.tsv")
@@ -33,6 +34,7 @@ public static void main(String[] args) {
     System.out.println(myTSVFilter);
     new TSVPipeline(myTSVFilter).doit();
 }
+```
 
 This code, with the data above, would provide only the second and third records in the output. 
 
