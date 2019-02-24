@@ -1,7 +1,6 @@
-Age	Name	Surname	Home town	gpa	Constant
-long	String	String	String	long	String	
-66	100	Arsen	Clarkston	314	x
-20	Celia	Arsen	Ann Arbor	40	x
-27	Emily	Arsen	Ann Arbor	40	x
-19	Alana	Masciana	Milford	42	x
-
+Age	Name	Surname	Home town	zipcode	
+long	String	String	String	long		
+66	David	Arsen	Clarkston	48346	
+20	Celia	Arsen	Ann Arbor	48103	
+27	Emily	Arsen	Ann Arbor	48103	
+19	Alana	Masciana	Milford	06460
