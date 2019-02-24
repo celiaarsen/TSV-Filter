@@ -249,6 +249,5 @@ public class TSVPipeline{
 			good = false;
 		}
 		return good;
-	}
-	
+	}	
 }
