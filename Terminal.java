@@ -4,6 +4,6 @@
  *
  */
 public enum Terminal {
-	ALLSAME, COUNT, MIN, MAX, SUM, FIRSTDIFF, NONE
+	ALLSAME, COUNT, MIN, MAX, SUM, NONE
 
 }
