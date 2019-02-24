@@ -7,7 +7,7 @@ Written for Honors Intro Computer Science, Columbia University
 This system is essentially a very simple relational datastream management system, made without using the streams and filters 
 package in the java API. 
 
-The system takes a tsv file as input, where the first line is header names,and the second line is data types. For example:
+The system takes a tsv file as input, where the first line is header names, and the second line is data types. For example:
 
 ```
 Name \t Age \t Cell Phone \t Zip Code \n
@@ -57,5 +57,5 @@ public static void main(String[] args) {
 }
 ```
 This code, with the data from above, would provide the two records with the name Tony in the output, and would print 22 as the maximum
-age. 
+age. ```TSVRunner.java``` provides a use case of the system, using data from the file ```testInput.tsv```
 
