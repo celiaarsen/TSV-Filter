@@ -1,7 +1,7 @@
 # TSV-Filter
 
 Celia Arsen
-November 8, 2018
+November 8, 2018,
 Written for Honors Intro Computer Science, Columbia University
 
 This system is essentially a very simple relational datastream management system, made without using the streams and filters 
