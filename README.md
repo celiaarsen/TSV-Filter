@@ -1,6 +1,6 @@
 # TSV-Filter
 
-@author Celia Arsen
+Celia Arsen
 November 8, 2018
 Written for Honors Intro Computer Science, Columbia University
 
