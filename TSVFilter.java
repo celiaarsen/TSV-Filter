@@ -1,5 +1,5 @@
 /**
- * This class
+ * This class builds a tsv filter, based on user inputs
  * @author Celia Arsen
  *
  */
