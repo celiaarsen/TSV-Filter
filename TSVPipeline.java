@@ -201,9 +201,6 @@ public class TSVPipeline{
 		else if (computationType==Terminal.SUM) {
 			return new ComputeSum();
 		}
-		else if (computationType==Terminal.FIRSTDIFF) {
-			return new ComputeFirstDiff();
-		}
 		else {
 			return new ComputeNothing();
 		}
