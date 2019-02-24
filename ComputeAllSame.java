@@ -45,5 +45,4 @@ public class ComputeAllSame implements Compute {
 		String statement = field + " all same?: " + getComputation();
 		return statement;
 	}
-
 }
