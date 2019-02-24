@@ -11,9 +11,9 @@ public class TSVRunner {
 
 	public static void main(String[] args) throws FileNotFoundException {
 		TSVFilter myFilter = new TSVFilter
-				.Builder("allSame.tsv") //change this to args[0] for easy command line arguments
+				.Builder("testInput.tsv") //change this to args[0] for easy command line arguments
 				.select("Surname", "Arsen")
-				.compute("Home town", Terminal.ALLSAME)
+				.compute("zipcod", Terminal.MAX)
 				.done();
 		System.out.println(myFilter);
 		File outPut = new TSVPipeline(myFilter).doit();
