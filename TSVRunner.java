@@ -13,7 +13,7 @@ public class TSVRunner {
 		TSVFilter myFilter = new TSVFilter
 				.Builder("testInput.tsv") //change this to args[0] for easy command line arguments
 				.select("Surname", "Arsen")
-				.compute("zipcod", Terminal.MAX)
+				.compute("zipcode", Terminal.MAX)
 				.done();
 		System.out.println(myFilter);
 		File outPut = new TSVPipeline(myFilter).doit();
