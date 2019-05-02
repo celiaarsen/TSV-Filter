@@ -4,7 +4,7 @@ Celia Arsen
 November 8, 2018,
 Written for Honors Intro Computer Science, Columbia University
 
-This system is essentially a very simple relational datastream management system, made without using the streams and filters 
+This system is essentially a very simple relational data stream management system, made without using the streams and filters 
 package in the java API. 
 
 The system takes a tsv file as input, where the first line is header names, and the second line is data types. For example:
